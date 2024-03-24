@@ -41,9 +41,9 @@ EPE1/
 
 ## Clonar el Repositorio
 
-````
 Para clonar el proyecto y comenzar a trabajar en él, sigue estos pasos:
 
+````
 git clone https://github.com/yllorca/desarrollo-web.git
 cd desarrollo-web
 git checkout epe1
