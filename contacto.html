@@ -33,14 +33,15 @@
         <span class="fs-4">Aerolínea “Vuela Lejos”</span>
       </a>
 
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto nav-menu">
-        <a class="me-3 py-2 text-dark text-decoration-none active" href="index.html">Inicio</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="destinos.html">Destinos</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="hoteles.html">Hoteles</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="ayuda.html">Centro de ayuda</a>
-        <a class="py-2 text-dark text-decoration-none" href="contacto.html">Contacto</a>
-      </nav>
       
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto nav-menu">
+        <a class="me-3 py-2 text-dark text-decoration-none" href="index.html">Inicio</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="destinos.html">Destinos</a>
+        <a class="me-3 py-2 text-dark text-decoration-none " href="hoteles.html">Hoteles</a>
+        <a class="me-3 py-2 text-dark text-decoration-none " href="ayuda.html">Centro de ayuda</a>
+        <a class="py-2 text-dark text-decoration-none active" href="contacto.html">Contacto</a>
+      </nav>
+
     </div>
 
 
@@ -48,62 +49,41 @@
 
   <main>
 
-     <!-- Carrusel de imágenes -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/slide1-epe1.jpg" class="d-block w-100" alt="Imagen 1">
+    <div class="container py-5">
+      <div class="row">
+        <h2 class="mb-4">Contacto</h2>
+          <div class="col-md-4">
+              <div class="p-3 border bg-light">
+                  <h4>Datos de Contacto</h4>
+                  <p><strong>Teléfono 1:</strong><a href="tel:++56996040090">+56996040090</a></p>
+                  <p><strong>Teléfono 2:</strong><a href="tel:++56996040091">+56996040091</a></p>
+                  <p><strong>Email:</strong> <a href="mailto:contacto@vuelalejos.com">contacto@vuelalejos.com</a></p>
+                  <p><strong>Dirección:</strong> Av Santa maria 123, Concepción, Chile</p>
+                  <p><strong>Horarios de Atención:</strong> Lunes a Viernes - 9:00 a 18:00</p>
+              </div>
+          </div>
+          <div class="col-md-8">
+              <form>
+                  <div class="mb-3">
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Tu nombre aquí">
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="tuemail@example.com">
+                  </div>
+                  <div class="mb-3">
+                      <label for="mensaje" class="form-label">Mensaje</label>
+                      <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+              </form>
+          </div>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
   </div>
-
-
-  <section class="container py-5">
-    
-    <h2 class="mb-4">Destinos Populares</h2>
-    <hr>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="assets/images/promo2.jpg" class="card-img-top" alt="Destino 1">
-          <div class="card-body">
-            <h5 class="card-title">Caribe Mexicano</h5>
-            <p class="card-text">Explora las playas de arena blanca y aguas cristalinas del Caribe Mexicano, un paraíso tropical que te espera.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="assets/images/promo1.jpg" class="card-img-top" alt="Destino 2">
-          <div class="card-body">
-            <h5 class="card-title">Cancún</h5>
-            <p class="card-text">Descubre Cancún, un destino lleno de aventuras, cultura maya y una vida nocturna sin igual.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="assets/images/promo3.jpg" class="card-img-top" alt="Destino 3">
-          <div class="card-body">
-            <h5 class="card-title">Brasil</h5>
-            <p class="card-text">Sumérgete en la espiritualidad y las impresionantes playas de Brasil, un oasis de paz y belleza natural.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
   
     
   </main>
