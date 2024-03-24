@@ -3,13 +3,9 @@ body {
   }
   
   .container {
-    max-width: 960px;
+    max-width: 980px;
   }
   
-  .pricing-header {
-    max-width: 700px;
-  }
-
   /* Estilo base para el menú */
 .nav-menu {
   display: flex; /* Asegura que los elementos del menú estén en línea */
@@ -31,7 +27,7 @@ body {
 /* Estilo para el enlace que esté activo */
 .nav-menu a.active, .nav-menu a:hover {
   background-color: #1b0088; /* Color de fondo para el ítem activo o al pasar el ratón */
-  color: #fff !important; /* Forzando el color de texto para enlaces activos o en hover */
+   color: #fff !important; /* Forzando el color de texto para enlaces activos o en hover */
 }
 
 
