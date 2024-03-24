@@ -30,7 +30,25 @@ EPE1/
 ├── hoteles.html
 ├── index.html
 └── README.md
+
+- La carpeta `assets/css/` contiene las hojas de estilo CSS.
+- La carpeta `assets/images/` incluye todas las imágenes utilizadas en el sitio web.
+- La carpeta `js/` es para los archivos JavaScript.
+- Los archivos HTML son las páginas del sitio web.
+
 `````
+
+
+## Clonar el Repositorio
+
+````
+Para clonar el proyecto y comenzar a trabajar en él, sigue estos pasos:
+
+git clone https://github.com/yllorca/desarrollo-web.git
+cd desarrollo-web
+git checkout epe1
+````
+
 
 ## Instalar la Extensión Live Server de VSC
 Para visualizar los cambios en tiempo real con Visual Studio Code, se recomienda instalar la extensión Live Server. Puedes encontrarla yendo a la sección de extensiones en VSC y buscando "Live Server".
